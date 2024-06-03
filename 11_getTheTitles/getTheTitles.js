@@ -1,6 +1,6 @@
-const getTheTitles = function() {
-
-};
+function getTheTitles(arr) {
+     return arr.map(i => i.title)
+}
 
 // Do not edit below this line
 module.exports = getTheTitles;
